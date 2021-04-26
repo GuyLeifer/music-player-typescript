@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@500&family=Gloria+Hallelujah&family=Gochi+Hand&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gloria+Hallelujah&family=Gochi+Hand&family=Permanent+Marker&display=swap');
+
+.topSongs {
+    flex: 25%;
+    text-align: center;
+    border: 1px solid rgb(73, 79, 82);
+    margin: 10px;
+    padding: 10px;
+    min-width: 200px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(73, 79, 82);
+}
+
+.description {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.song span {
+    margin: 10px;
+    color: grey;
+    text-decoration: underline;
+}
+
+.songTitle {
+    right: 0;
+}
+
+.song:hover {
+    color: rgb(73, 79, 82);
+    font-weight: 600;
+    text-shadow:
+        -1px -1px 0 aliceblue,
+        1px -1px 0 aliceblue,
+        -1px 1px 0 aliceblue,
+        1px 1px 0 aliceblue;
+}
+
+.songLength {
+    left: 0;
+}
+
+/* SongId */
+.songsFromSameDiv {
+    flex: 50%;
+    text-align: center;
+    border: 1px solid rgb(73, 79, 82);
+    margin: 10px;
+    padding: 10px;
+    min-width: 200px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(73, 79, 82);
+}
+
+.songLink {
+    color: rgb(73, 79, 82);
+    text-decoration: underline;
+}
+
+.subHeader {
+    text-decoration: underline;
+    font-size: 200%;
+    margin: 10px;
+    color: aliceblue;
+    transition: 1s;
+}
+
+.subHeader:hover {
+    color: rgb(73, 79, 82);
+    cursor: pointer;
+    transition: 2s;
+}
+
+/* select */
+.playlistAddDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(73, 79, 82);
+    border-radius: 15%;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.playlistAddDiv div {
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputSubmit {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    color: #444444;
+    background: #F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-size: 9pt;
+    outline: none;
+    width: 30%;
+}
+
+#inputSubmit:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+#inputSubmit:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;
+}
+
+#mySelect {
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-size: 16px;
+    font-weight: 700;
+    color: #444;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid #aaa;
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+        linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    width: 70%;
+}
+
+#mySelect:hover {
+    color: rgb(109, 107, 107);
+}
+
+.addPlaylist {
+    cursor: pointer;
+    color: rgb(106, 114, 118);
+    font-weight: bold;
+    margin: 5px;
+}
+
+.likeIcon {
+    background-color: rgb(73, 79, 82);
+    border-radius: 50%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.likeIcon:hover {
+    background-color: aliceblue;
+    transition: 500ms;
+}
+
+.unlikeIcon {
+    background-color: rgb(73, 79, 82);
+    border-radius: 50%;
+    height: 50px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.unlikeIcon:hover {
+    background-color: aliceblue;
+}
+
+.title {
+    font-size: 150%;
+}
+
+.playCount {
+    margin-top: 0;
+}
+
+.count {
+    font-size: 150%;
+    padding: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.lyrics {
+    display: inline-block;
+    width: 50%;
+}
+
+.songContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

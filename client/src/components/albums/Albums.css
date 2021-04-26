@@ -1,0 +1,94 @@
+.topAlbums {
+    flex: 25%;
+    text-align: center;
+    border: 1px solid rgb(73, 79, 82);
+    margin: 10px;
+    padding: 10px;
+    min-width: 200px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(73, 79, 82);
+}
+
+.albumName {
+    color: grey;
+    text-decoration: underline;
+}
+.albumImg img {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+}
+.albumImg img:hover {
+    height: 120px;
+    width: 120px;
+}
+.album:hover {
+    text-shadow:
+    -1px -1px 0  aliceblue,  
+    1px -1px 0  aliceblue,
+    -1px 1px 0  aliceblue,
+    1px 1px 0  aliceblue;
+    color: rgb(73, 79, 82);
+    font-weight: 600;
+}
+.artistLink {
+    color: rgb(73, 79, 82);
+}
+
+/* albumId */
+.songsOnAlbumDiv {
+    flex: 50%;
+    text-align: center;
+    border: 1px solid rgb(73, 79, 82);
+    margin: 10px;
+    padding: 10px;
+    min-width: 200px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(73, 79, 82);
+}
+.subHeader {
+    text-decoration: underline;
+    font-size: 200%;
+    margin: 10px;
+    color: aliceblue;
+    transition: 1s;
+}
+.subHeader:hover {
+    color: rgb(73, 79, 82);
+    cursor: pointer;
+    transition: 2s;
+}
+.likeIcon {
+    background-color:rgb(73, 79, 82);
+    border-radius: 50%;
+    height: 50px;
+    cursor: pointer;
+}
+.likeIcon:hover {
+    background-color:aliceblue;
+    transition: 500ms;
+}
+.unlikeIcon {
+    background-color:rgb(73, 79, 82);
+    border-radius: 50%;
+    height: 50px;
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    cursor: pointer;
+    transition: 500ms;
+}
+.unlikeIcon:hover {
+    background-color:aliceblue;
+}
+.title {
+    font-size: 150%;
+}
+.albumContainer {
+    display: flex;
+    justify-content: space-around;
+}

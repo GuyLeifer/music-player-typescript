@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gloria+Hallelujah&family=Gochi+Hand&family=Permanent+Marker&display=swap');
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(73, 79, 82);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-mobile {
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(73, 79, 82);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 1%;
+}
+
+.nav-titles {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.iconsLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navImg {
+    height: 50px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    transition: 1s;
+}
+
+.navImg:hover {
+    background-color: grey;
+    transition: 1s;
+}
+
+.searchContainer {
+    position: relative;
+}
+
+input[type="search"] {
+
+    display: block;
+    width: 100%;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 1px;
+    text-shadow: 0 0 2px black;
+    font-size: large;
+    border: 1px solid grey;
+    border-radius: 100px;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    height: 25px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 50%;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 1px;
+    text-shadow: 0 0 2px black;
+    border: 1px solid aliceblue;
+    border-radius: 100px;
+    height: 25px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: black;
+    border: 1px solid black;
+    font-weight: 900;
+    text-shadow: 0 0 2px white;
+}
+
+.search-icon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 14px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: rgb(73, 79, 82);
+    text-shadow: 0 0 0.5px black;
+    width: 100%;
+}
+
+.option {
+    background-color: white;
+    margin: 5px auto;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.optionName {
+    width: 90%;
+}
+
+.optionIconDiv {
+    width: 10%;
+    margin: 5px;
+}
+
+.optionIcon {
+    width: 100%;
+}
+
+.option.song {
+    background-color: rgb(120, 120, 120);
+}
+
+.option.artist {
+    background-color: rgb(150, 150, 150);
+}
+
+.option.album {
+    background-color: rgb(180, 180, 180);
+}
+
+.option.playlist {
+    background-color: rgb(210, 210, 210);
+}
+
+.option.user {
+    background-color: rgb(240, 240, 240);
+}
+
+.modal {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.error {
+    text-align: center;
+    font-size: 80%;
+    font-weight: bold;
+    color: black;
+}
+
+.labelInput {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.modalTitle {
+    text-align: center;
+}
+
+.input {
+    background-color: rgb(73, 79, 82);
+    color: aliceblue;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.signup {
+    text-align: center;
+    color: black;
+}
+
+.question {
+    margin: 10px 20px;
+    padding: 10px auto;
+}
+
+.signupLink {
+    color: white;
+    text-decoration: underline;
+    margin: auto;
+    cursor: pointer;
+}
+
+.username {
+    background-color: aliceblue;
+    color: black;
+    text-decoration: underline;
+    width: 38px;
+    height: 38px;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.username::before {
+    position: absolute;
+    content: "";
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 1s;
+}
+
+.username:hover::before {
+    background-color: grey;
+    transition: 1s;
+}
+
+.logout {
+    position: absolute;
+    font-size: 70%;
+    color: darkgrey;
+    transition: 500ms;
+}
+
+.logout:hover {
+    position: absolute;
+    font-size: 70%;
+    color: aliceblue;
+    transition: 500ms;
+}

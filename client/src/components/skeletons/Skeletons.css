@@ -1,0 +1,28 @@
+.topSkeletons {
+    flex: 25%;
+    text-align: center;
+    border: 1px solid rgb(73, 79, 82);
+    margin: 10px;
+    padding: 10px;
+    min-width: 200px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(73, 79, 82);
+}
+
+.topHeaderSkeleton {
+    text-decoration: underline;
+    font-size: 150%;
+    margin: 10px;
+    color: white;
+}
+
+.topHeader:hover {
+    font-size: 150%;
+    color: rgb(73, 79, 82);
+    text-shadow:
+        -1px -1px 0 aliceblue,
+        1px -1px 0 aliceblue,
+        -1px 1px 0 aliceblue,
+        1px 1px 0 aliceblue;
+    cursor: pointer;
+}

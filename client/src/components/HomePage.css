@@ -1,0 +1,28 @@
+.topTitles {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(73, 79, 82);
+}
+
+.topTitles-mobile {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(73, 79, 82);
+    font-size: 80%;
+}
+
+.topTitles h2 {
+    transition: 1s;
+}
+
+.topTitles h2:hover {
+    cursor: pointer;
+    color: aliceblue;
+    transition: 2s;
+}
+
+.chosen {
+    color: aliceblue;
+    font-size: 200%;
+    text-decoration: underline;
+}

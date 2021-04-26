@@ -1,0 +1,63 @@
+.title {
+    font-size: 200%;
+}
+
+.subHeader {
+    text-decoration: underline;
+    font-size: 200%;
+    margin: 10px;
+    color: aliceblue;
+    transition: 1s;
+}
+
+.subHeader:hover {
+    color: rgb(73, 79, 82);
+    cursor: pointer;
+    transition: 2s;
+}
+
+.insideLink {
+    color: rgb(73, 79, 82);
+    text-decoration: underline;
+    margin: 20px;
+    transition: 1s;
+}
+
+.insideLink:hover {
+    color: aliceblue;
+    transition: 2s;
+}
+
+.playlistLink {
+    color: rgb(73, 79, 82);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 150%;
+    transition: 2s;
+}
+
+.playlistLink:hover {
+    color: aliceblue;
+    transition: 2s;
+}
+
+.deleteDiv {
+    color: aliceblue;
+    margin: 30px;
+}
+
+.deleteP {
+    margin: 10px;
+}
+
+.newPlaylist {
+    color: aliceblue;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.newPlaylist:hover {
+    font-size: 120%;
+    transition: 1s;
+}

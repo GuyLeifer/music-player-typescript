@@ -1,0 +1,129 @@
+.topPlaylists {
+    flex: 25%;
+    text-align: center;
+    border: 1px solid rgb(73, 79, 82);
+    margin: 10px;
+    padding: 10px;
+    min-width: 200px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(73, 79, 82);
+}
+
+.playlistName {
+    color: grey;
+    text-decoration: underline;
+}
+.playlist:hover {
+    color: rgb(73, 79, 82);
+    font-weight: 600;
+    text-shadow:
+    -1px -1px 0  aliceblue,  
+    1px -1px 0  aliceblue,
+    -1px 1px 0  aliceblue,
+    1px 1px 0  aliceblue;
+}
+.playlistImg img {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+}
+.playlistImg img:hover {
+    height: 120px;
+    width: 120px;
+}
+
+/* playlistId */
+.songsOnPlaylistDiv {
+    flex: 50%;
+    text-align: center;
+    border: 1px solid rgb(73, 79, 82);
+    margin: 10px;
+    padding: 10px;
+    min-width: 200px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(73, 79, 82);
+}
+.subHeader {
+    text-decoration: underline;
+    font-size: 200%;
+    margin: 10px;
+    color: aliceblue;
+    transition: 1s;
+}
+.subHeader:hover {
+    color: rgb(73, 79, 82);
+    cursor: pointer;
+    transition: 2s;
+}
+.likeIcon {
+    background-color:rgb(73, 79, 82);
+    border-radius: 50%;
+    height: 50px;
+    cursor: pointer;
+}
+.likeIcon:hover {
+    background-color:aliceblue;
+    transition: 500ms;
+}
+.unlikeIcon {
+    background-color:rgb(73, 79, 82);
+    border-radius: 50%;
+    height: 50px;
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    cursor: pointer;
+    transition: 500ms;
+}
+.unlikeIcon:hover {
+    background-color:aliceblue;
+}
+.title {
+    font-size: 150%;
+}
+.playlistContainer {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.playlistNameLink {
+    display: inline-block;
+    color: rgb(73, 79, 82);
+    text-decoration: underline;
+    transition: 1500ms;
+}
+.playlistNameLink:hover {
+    color:aliceblue;
+    transition: 2s;
+}
+.deleteIcon {
+    display: inline-block;
+    background-color: aliceblue;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 50%;
+    right: 30px;
+    transition: 1s;
+}
+.deleteIcon:hover {
+    background-color: red;
+    transition: 1s;
+}
+.deletePlaylistIcon {
+    background-color:rgb(73, 79, 82);
+    border-radius: 50%;
+    height: 50px;
+    cursor: pointer;
+    transition: 500ms;  
+}
+.deletePlaylistIcon:hover {
+    background-color:red;
+}
+.iconsDiv {
+    display: flex;
+    justify-content: center;
+}
